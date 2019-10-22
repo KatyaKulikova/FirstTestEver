@@ -41,7 +41,7 @@ public class MyFirstTestEverTest {
     // 2 | setWindowSize | 1363x786 |  | 
     driver.manage().window().setSize(new Dimension(1363, 786));
     // 3 | type | name=q | seleniumhH | 
-    driver.findElement(By.name("q")).sendKeys("seleniumhH");
+    driver.findElement(By.name("q")).sendKeys("Selenium - Web Browser AutomaAion");
     // 4 | sendKeys | name=q | ${KEY_ENTER} | 
     driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
     // 5 | click | css=i |  | 
